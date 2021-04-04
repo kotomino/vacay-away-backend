@@ -1,0 +1,41 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  address: MyString
+  cost: 1
+  notes: MyText
+  monday_open: 2021-04-04 15:53:01
+  monday_close: 2021-04-04 15:53:01
+  tuesday_open: 2021-04-04 15:53:01
+  tuesday_close: 2021-04-04 15:53:01
+  wednesday_open: 2021-04-04 15:53:01
+  wednesday_close: 2021-04-04 15:53:01
+  thursday_open: 2021-04-04 15:53:01
+  thursday_close: 
+  friday_open: 2021-04-04 15:53:01
+  friday_close: 2021-04-04 15:53:01
+  saturday_open: 2021-04-04 15:53:01
+  saturday_close: 2021-04-04 15:53:01
+  sunday_open: 2021-04-04 15:53:01
+  sunday_close: 2021-04-04 15:53:01
+
+two:
+  name: MyString
+  address: MyString
+  cost: 1
+  notes: MyText
+  monday_open: 2021-04-04 15:53:01
+  monday_close: 2021-04-04 15:53:01
+  tuesday_open: 2021-04-04 15:53:01
+  tuesday_close: 2021-04-04 15:53:01
+  wednesday_open: 2021-04-04 15:53:01
+  wednesday_close: 2021-04-04 15:53:01
+  thursday_open: 2021-04-04 15:53:01
+  thursday_close: 
+  friday_open: 2021-04-04 15:53:01
+  friday_close: 2021-04-04 15:53:01
+  saturday_open: 2021-04-04 15:53:01
+  saturday_close: 2021-04-04 15:53:01
+  sunday_open: 2021-04-04 15:53:01
+  sunday_close: 2021-04-04 15:53:01
