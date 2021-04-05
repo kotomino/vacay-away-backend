@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_04_200317) do
+ActiveRecord::Schema.define(version: 2021_04_05_145458) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,20 +20,20 @@ ActiveRecord::Schema.define(version: 2021_04_04_200317) do
     t.string "address"
     t.integer "cost"
     t.text "notes"
-    t.time "monday_open"
-    t.time "monday_close"
-    t.time "tuesday_open"
-    t.time "tuesday_close"
-    t.time "wednesday_open"
-    t.time "wednesday_close"
-    t.time "thursday_open"
-    t.time "thursday_close"
-    t.time "friday_open"
-    t.time "friday_close"
-    t.time "saturday_open"
-    t.time "saturday_close"
-    t.time "sunday_open"
-    t.time "sunday_close"
+    t.string "monday_open"
+    t.string "monday_close"
+    t.string "tuesday_open"
+    t.string "tuesday_close"
+    t.string "wednesday_open"
+    t.string "wednesday_close"
+    t.string "thursday_open"
+    t.string "thursday_close"
+    t.string "friday_open"
+    t.string "friday_close"
+    t.string "saturday_open"
+    t.string "saturday_close"
+    t.string "sunday_open"
+    t.string "sunday_close"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "vacation_id", null: false
