@@ -29,7 +29,8 @@ Activity.create([
     saturday_close: "22:00",
     sunday_open: "10:00",
     sunday_close: "21:30",
-    vacation: tokyo
+    vacation: tokyo,
+    day: "Undecided"
   },
   {
     name: "Tokyo Skytree", 
@@ -50,7 +51,8 @@ Activity.create([
     saturday_close: "20:00",
     sunday_open: "9:00",
     sunday_close: "20:00",
-    vacation: tokyo
+    vacation: tokyo,
+    day: "Day 1"
   },
   {
     name: "A Grand Wailea Luau", 
@@ -63,7 +65,8 @@ Activity.create([
     friday_close: "20:00",
     saturday_open: "17:30",
     saturday_close: "20:00",
-    vacation: hawaii
+    vacation: hawaii,
+    day: "Day 3"
   }
 
 ])

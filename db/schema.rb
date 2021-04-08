@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_05_145458) do
+ActiveRecord::Schema.define(version: 2021_04_07_211650) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(version: 2021_04_05_145458) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "vacation_id", null: false
+    t.string "day"
     t.index ["vacation_id"], name: "index_activities_on_vacation_id"
   end
 
