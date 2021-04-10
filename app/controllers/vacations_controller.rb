@@ -5,7 +5,7 @@ class VacationsController < ApplicationController
   def index
     @vacations = Vacation.all
 
-    render json: @vacations, except: [:created_at]
+    render json: @vacations, except: [:created_at, :updated_at]
   end
 
   # GET /vacations/1
@@ -18,7 +18,7 @@ class VacationsController < ApplicationController
     @vacation = Vacation.new(vacation_params)
 
     if @vacation.save
-      render json: @vacation, status: :created, location: @vacation, except: [:created_at]
+      render json: @vacation, status: :created, location: @vacation, except: [:created_at, :updated_at]
     else
       render json: @vacation.errors, status: :unprocessable_entity
     end
@@ -27,7 +27,7 @@ class VacationsController < ApplicationController
   # PATCH/PUT /vacations/1
   def update
     if @vacation.update(vacation_params)
-      render json: @vacation, except: [:created_at]
+      render json: @vacation, except: [:created_at, :updated_at]
     else
       render json: @vacation.errors, status: :unprocessable_entity
     end
